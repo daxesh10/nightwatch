@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="Hometest"
+    errors="0" failures="1" hostname="" id="" package="test" skipped="0"
+    tests="2" time="20.91" timestamp="Fri, 09 Sep 2016 07:10:54 GMT">
+  
+    <testcase name="default" time="9.816" assertions="0">
+    </testcase>
+  
+    <testcase name="test for home page clcikables" time="11.09" assertions="6">
+
+    
+
+    
+
+    
+
+    
+
+      <failure message="Timed out while waiting for element &lt;a.btn-grey-900&gt; to be present for 1000 milliseconds.">    at Object.Homepage.Clickongridview (C:\Users\daxes\PhpstormProjects\nightwatch2\pages\Homepage.js:56:22)
+    at Object.module.exports.test for home page clcikables (C:\Users\daxes\PhpstormProjects\nightwatch2\test\Hometest.js:29:14)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
