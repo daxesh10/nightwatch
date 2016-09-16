@@ -1,17 +1,26 @@
 
-/**
- * Created by daxes on 9/8/2016.
- */
 
-var webdriver = require('selenium-webdriver');
-var By = webdriver.By;
-var until = webdriver.until;
+
+    var webdriver = require("selenium-webdriver"),
+    logging = webdriver.logging,
+until = webdriver.until,
+By = webdriver.By;
+
+
+//
+//var webdriver = require("selenium-webdriver");
+//var By = webdriver.By;
+//var until = webdriver.until;
+
 var locators = require('../locators.json');
+var url = "http://dev1.talentscreen.io/#/website-courses/grid";
+
 
 function Homepage(browser){
     this.browser = browser;
 
-};
+
+}
 
 Homepage.prototype={
 
@@ -26,20 +35,24 @@ Homepage.prototype={
         this.browser.waitForElementVisible(locators['home.image1'],3000);
         this.browser.click(locators['home.image1']);
         this.browser.assert.elementPresent(locators['home.image1']);
-      //  this.browser.assert.cssPresent(locators['home.image1'],'parallax-layer');
+        this.browser.assert.cssClassPresent(locators['home.image1'],'parallax-layer');
         this.browser.pause(2000);
     },
-    "Clickonimage2":function()
+    "Clisckonimage2":function()
     {
-        this.browser.waitForElementVisible(locators['home.image2'],1000);
+        //this.browser.alert("test on image2");
+        this.browser.url('http://dev1.talentscreen.io/#/website-courses/grid');
+        //this.borwser.url(locators['talentscreen_url']).alert("test on img");
+      //  this.browser.waitForElementVisible(locators['home.image2'],1000);
         this.browser.click(locators['home.image2']);
-        this.browser.pause(2000);
         this.browser.assert.elementPresent(locators['home.image2']);
-        //this.browser.assert.cssPresent(locators['home.iamge2'],'parallax-layer');
+        this.browser.assert.cssClassPresent(locators['home.image2'],'parallax-layer');
+        this.browser.pause(2000);
 
     },
     "Clickonarrow":function()
     {
+        this.browser.url(url.toString());
         this.browser.waitForElementVisible('span.select2-arrow',1000);
         this.browser.click('span.select2-arrow');
         this.browser.pause(2000);
@@ -68,6 +81,7 @@ Homepage.prototype={
 
 };
 module.exports= Homepage;
+
 
 
 

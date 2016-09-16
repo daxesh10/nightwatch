@@ -12,21 +12,22 @@ module.exports={
         browser.pause(2000);
 
 
+
     },
 
     "test for home page clcikables":function(browser)
     {
 
-        home = new Homepage(browser);
+       // home = new Homepage(browser);
        /* home.Clickongridview();
         home.Clickonlistview();
         home.Clickonarrow();
         home.ClickonFilter();*/
 
-        home.ClickOnlogo();
-    home.ClickonImage1();
-        home.Clickonimage2();
-        home.Clickongridview();
+//        home.ClickOnlogo();
+  //  home.ClickonImage1();
+    //    home.Clisckonimage2();
+      //  home.Clickongridview();
 
 
     }

@@ -7,10 +7,20 @@
   "home.candidateButton": "a[ng-show='loginShow']",
   "home.loginButton": "div a[href='#/login']",
   "home.browseSubjectsButton": "a.btn.btn-lg.btn-primary",
+  "home.textheadline":"div.text-headline",
   "home.carousell": "html/body/div/div/div[3]/div/slick/ul/li[1]/a",
   "home.carousel2": "html/body/div/div/div[3]/div/slick/ul/li[2]/a",
   "home.carousel3": "html/body/div/div/div[3]/div/slick/ul/li[3]/a",
+
+
   "signup.signupButton": "a[ui-sref='sign-up']",
+  "signup.github":"a.btn-github",
+  "signup.facebook":"a.btn-facebook",
+  "signup.google":"a.btn-google",
+  "signup.linkedin":"a.btn-linkedin",
+  "signup.signin":".btn-success",
+  "signup.createAccount":".btn-primary",
+
   "signup.emailIDField": "#emailAddress",
   "signup.passwordField": "#ePassword",
   "signup.confirmPasswordField": "#mPassword",
@@ -18,6 +28,7 @@
   "signup.employeeCheckBox": "#candidate",
   "signup.createAccount": "input[type='submit']",
   "signup.logoutButton": "a[ng-click='logout()']",
+
   "myProfile.viewProfile": "a.link-white.text-underline",
   "myProfile.addPhoto": "#profile-image",
   "myProfile.firstName": "#input-firstName",
@@ -25,10 +36,14 @@
   "myProfile.emailAddress": "#input-Email3",
   "myProfile.checkBox": "label[for='checkbox3']",
   "myProfile.saveChanges": "button[type='submit']",
+
+
   "login.userNameField": "div input[id='username']",
   "login.passwordField2": "div input[id='password']",
   "login.submitButton": ".btn.btn-primary",
   "login.candidateButton": ".dropdown-toggle",
+
+
   "quiz.newChallenge": "#new-challenge",
   "quiz.logo1": ".fa-puzzle-piece.fa-fw.fa-2x",
   "quiz.tryChallenge": "#try-a-challenge",
@@ -37,5 +52,14 @@
   "quiz.downArrow": ".select2-arrow",
   "quiz.choiceQuiz": "#ui-select-choices-row-3-0",
   "quiz.codingQuiz": "#ui-select-choices-row-3-1",
-  "quiz.vedioQuiz": "#ui-select-choices-row-3-2"
+  "quiz.vedioQuiz": "#ui-select-choices-row-3-2",
+
+
+  "talentscreen_url": "http://dev1.talentscreen.io/#/website-courses/grid",
+  "url-home":"http://dev1.talentscreen.io/#/website-pages/home",
+  "url-login":"http://dev1.talentscreen.io/#/login",
+  "url-singup":"http://dev1.talentscreen.io/#/sign-up",
+  "url-subject":"http://dev1.talentscreen.io/#/website-courses/grid",
+  "home.div-image":"div.cover-image-full"
+
 }

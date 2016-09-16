@@ -1,5 +1,5 @@
 {
-  "src_folders": "",
+  "src_folders": "test",
   "output_folder": "report",
   "custom_commands_path": "",
   "custom_assertions_path": "",
@@ -7,14 +7,15 @@
   "globals_path": "",
   "selenium": {
     "start_process": false,
-    "server_path": "",
+    "server_path": "C:/User/daxes/node_modules/selenium-server-standalone-3.0.0-beta3",
     "log_path": "",
     "host": "127.0.0.1",
     "port": 4444,
+
     "cli_args": {
       "webdriver.chrome.driver": "node_modules/selenium-chromedriver/bin/chromedriver.exe",
       "webdriver.ie.driver": ""
-    }
+      }
   },
   "test_settings": {
     "default": {
@@ -22,9 +23,12 @@
       "selenium_port": 4444,
       "selenium_host": "localhost",
       "silent": true,
+
       "screenshots": {
         "enabled": false,
         "path": ""
+
+
       },
       "desiredCapabilities": {
         "browserName": "chrome",
@@ -34,7 +38,7 @@
     },
     "chrome": {
       "desiredCapabilities": {
-        "browserName": "firefox",
+        "browserName": "chrome",
         "javascriptEnabled": true,
         "acceptSslCerts": true
       }

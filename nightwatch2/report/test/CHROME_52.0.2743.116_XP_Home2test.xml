@@ -3,14 +3,20 @@
             failures="0"
             tests="2">
 
-  <testsuite name="Hometest"
+  <testsuite name="Home2test"
     errors="0" failures="0" hostname="" id="" package="test" skipped="0"
-    tests="2" time="10.97" timestamp="Thu, 15 Sep 2016 20:49:34 GMT">
+    tests="2" time="14.10" timestamp="Thu, 15 Sep 2016 20:49:19 GMT">
   
-    <testcase name="default" time="10.96" assertions="0">
+    <testcase name="default" time="12.25" assertions="0">
     </testcase>
   
-    <testcase name="test for home page clcikables" time="0.001000" assertions="0">
+    <testcase name="test for l" time="1.843" assertions="3">
+
+    
+
+    
+
+    
     </testcase>
   
   
